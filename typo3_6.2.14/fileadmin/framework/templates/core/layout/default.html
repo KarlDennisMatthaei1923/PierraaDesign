@@ -1,0 +1,43 @@
+<div id="device"></div>
+<div id="top"></div>
+
+<div id="mobile-navigation" class="tablet mobile">
+  <div class="options-inset">
+    <a href="#" class="navigation-trigger left">Menü öffnen</a>
+    <a href="#" class="language left active">DE</a>
+    <a href="#" class="language left ">EN</a>
+    <a href="#" class="search right">Suche</a>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="header">
+    <div id="logo-wrap">
+      <div id="logo" class="image-container">
+        <img src="http://placehold.it/250x70">
+      </div>
+    </div>
+    <div class="max-width-image">
+		{headerimage -> f:format.raw()}
+    </div>
+  </div>
+
+  <div id="desktop-navigation" class="desktop">
+    <div class="grid max6">
+      <div class="row">
+          <div class="col col-6">
+            {navigation -> f:format.raw()}
+            {language -> f:format.raw()}
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="grid max6">
+      <f:render section="content" />
+    </div>
+  </div>
+
+</div>

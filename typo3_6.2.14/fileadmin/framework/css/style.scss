@@ -1,0 +1,51 @@
+@import 'import/normalize';
+@import 'import/base';
+@import 'grid/grid';
+
+@import 'import/mmenu';
+@import 'import/slick';
+
+/* Partials */
+@import 'partials/mobile-navigation/mobile-navigation';
+@import 'partials/header/header';
+@import 'partials/desktop-navigation/desktop-navigation';
+
+/* Content */
+@import 'content/szag-teaser/szag-teaser';
+
+@import 'content/szag-news/szag-news';
+
+@import 'content/szag-jobs/szag-jobs-topjobs';
+
+@import 'content/tt-content/tt-content';
+
+/* SPEZIELLE IDS */
+
+#teaser-schueler {
+	margin-bottom: 9px;
+}
+
+@media (max-width: 1014px) {
+	#teaser-schueler {
+		float: left;
+		margin-bottom: 0;
+	}
+	#teaser-studenten {
+		float: left;
+		margin-left: 24px;
+	}
+}
+
+@media (max-width: 750px) {
+	#teaser-schueler {
+		margin-bottom: 9px;
+	}
+	#teaser-studenten {
+		margin-left: 0;
+	}
+}
+
+.mm-menu.mm-current {
+    display: block;
+    top: 61px;
+}

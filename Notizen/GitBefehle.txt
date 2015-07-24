@@ -1,0 +1,21 @@
+0. 	git config --global  user.name "Dein Name"
+	git config --global user.email "k.denniscodex@gmail.com"
+
+1.	prompt git$g // wechselt in der Kommandozeile in die Befehlsausführung von selber 
+
+2.	git init // erstellt den git Ordner im entsprächenden Ordner 
+3.	git clone  |Name der URL Repository kopieren! hier einfügen 
+
+4.	git -a -m "Name ausdenken für die Datei"    Damit spart man sich das add *  (mit dem -a)
+
+5.	git remote add origin  "URL Pfad zum Githup Repository"
+
+6.	git remote -v  // zeigt alle bestehenden repositories an 
+
+7. git push   // lähd die sachen auf das entfehrnte Repositoy hoch 
+
+8. 
+
+Immer erst Git add *  dadnn Committen  
+
+

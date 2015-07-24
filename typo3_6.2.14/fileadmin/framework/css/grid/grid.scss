@@ -1,0 +1,165 @@
+.grid {
+  position: relative;
+  width: 100%;
+  max-width: 998px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  .container {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+}
+
+.row {
+  margin-left: -12px;
+  margin-right: -12px;
+  width: 998px;
+}
+
+.row::before {
+  display: table;
+  content: " ";
+}
+
+.row::after {
+  display: table;
+  clear: both;
+  content: " ";
+}
+
+.col {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+/* Sechs-Spalten 960 Grid System */
+
+.max6 {
+  padding: 0 7px;
+}
+
+.max6 .col {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.max6 {
+  .col-1 {
+    max-width: 140px;
+  }
+  .col-2 {
+    max-width: 304px;
+  }
+  .col-3 {
+     max-width: 468px;
+  }
+  .col-4 {
+     max-width: 632px;
+  }
+  .col-5 {
+     max-width: 796px;
+  }
+  .col-6 {
+     max-width: 960px;
+  }
+}
+
+/* Fünf-Spalten 960 Grid System */
+
+.max5 {
+  padding: 0 7px 0 6px;
+}
+
+.max5 .col {
+  margin-left: 13px;
+  margin-right: 12px; 
+}
+
+.max5 {
+  .col-1 {
+    max-width: 172px;
+  }
+  .col-2 {
+    max-width: 369px;
+  }
+  .col-3 {
+     max-width: 566px;
+  }
+  .col-4 {
+     max-width: 763px;
+  }
+  .col-5 {
+     max-width: 960px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1014px) {
+
+  .grid {
+    max-width: 670px;
+  }
+
+  .row {
+    max-width: 656px;
+  }
+
+  .col {
+    width: auto;
+    float: none;
+  }
+
+  .max6 {
+    .col-1 {
+      max-width: 140px;
+      float: left;
+      width: 100%;
+    }
+    .col-2 {
+      max-width: 304px;
+      float: left;
+      width: 100%;
+    }
+    .col2-tablet-to-col4 {
+      max-width: 632px;
+    }
+  }
+
+}
+
+/*  Mobile */
+@media (max-width: 750px) {
+
+  .grid {
+    min-width: 320px;
+    max-width: 320px;
+    .container {
+      margin: 0;
+      margin-left: 1px;
+      margin-right: 1px;
+    }
+  }
+
+  .row {
+    margin-left: -1px;
+    margin-right: -1px;
+    max-width: 306px;
+  }
+
+  .max6 .col {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+
+  .col {
+    width: auto;
+    float: none;
+  }
+  .max6 {
+    .col2-tablet-to-col4 {
+      max-width: 304px;
+    }
+  }
+
+}

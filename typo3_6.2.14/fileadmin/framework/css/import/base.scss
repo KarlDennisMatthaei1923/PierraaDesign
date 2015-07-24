@@ -1,0 +1,132 @@
+/* Typographie */
+
+@font-face{
+  font-family:"HelveticaNeueW02-67MdCn_694060";
+  src:url("../fonts/694060/06b85ec8-4a05-49b4-91c2-f44ec792102b.eot?#iefix");
+  src:url("../fonts/694060/06b85ec8-4a05-49b4-91c2-f44ec792102b.eot?#iefix") format("eot"),
+  url("../fonts/694060/1d0835c8-a06f-45d8-be7f-31caedf5b2d8.woff2") format("woff2"),
+  url("../fonts/694060/11398868-5e58-467f-86d1-650e10dd998a.woff") format("woff"),
+  url("../fonts/694060/285f76f1-9aeb-40f3-8df6-f87eb061df28.ttf") format("truetype"),
+  url("../fonts/694060/95e9b167-72f4-4e05-8337-e993a249b8b5.svg#95e9b167-72f4-4e05-8337-e993a249b8b5") format("svg");
+}
+
+body {
+  font-family: "Helvetica Neue", "Helvetica", Arial, Verdana, Tahoma, sans-serif;
+  font-size: 0.83em;
+  line-height: 1.4em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: 1em;
+  font-weight: normal;
+  font-family: "HelveticaNeueW02-67MdCn_694060";
+  margin: 0;
+  line-height: 1.4em;
+}
+
+h1 {
+  font-size: 2.2em; 
+}
+h2 {
+  font-size: 1.8em; 
+}
+h3 {
+  font-size: 1.2em; 
+}
+h4 {
+  font-size: 1.0em; 
+}
+h5 {
+  font-size: 0.8em; 
+}
+
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.container {
+  background: #fff !important;
+}
+
+.mobile {
+  display: none;
+}
+
+.tablet {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.internal-link {
+  background: url('../images/a_internal_link.gif') bottom right no-repeat;
+}
+
+
+/* image container 5.5px bottomn via Line-height bug (firefox, ie, chrome) */
+.image-border {
+  border: 1px solid #ededed;
+}
+
+.image-container,
+.image-container a,
+.image-container picture,
+.image-container a picture,
+.image-container picture img,
+.image-container a picture img {
+  display: block;
+  line-height: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.image-container *, 
+.image-container * a{
+  line-height: 1.5em;
+}
+
+
+/* Tablet */
+@media (max-width: 1014px) {
+
+
+  .tablet {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  body {
+    padding-top: 61px
+  }
+
+}
+
+/*  Mobile */
+@media (max-width: 750px) {
+
+  .tablet {
+    display: none;
+  }
+  
+  .mobile {
+    display: block;
+  }
+
+  .image-border img {
+    max-width: 302px;
+  }
+  img {
+    max-width: 304px;
+  }
+
+}

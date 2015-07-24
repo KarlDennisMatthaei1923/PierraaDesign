@@ -1,0 +1,55 @@
+.mm-menu.mm-current {
+    display: block;
+    top: 61px;
+}
+
+@media (max-width: 1014px) {
+
+  #mobile-navigation {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    height: 60px;
+    background: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    top: 0;
+
+    .options-inset {
+      width: auto;
+      padding: 0 15px;
+    }
+
+    .options-inset::after {
+      display: table;
+      clear: both;
+      content: " ";
+    }
+
+    .left {
+      float: left;
+    }
+    .right {
+      float: right;
+    }
+
+    .navigation-trigger {
+      background-image: url(../images/szag-sprite.png);
+      background-position: -50px -60px; /* xpos ypos */
+      text-transform: uppercase;
+      padding-left: 40px;
+      margin-right: 40px;
+      height: 60px;
+      line-height: 60px;
+      outline: none;
+    }
+    .language {
+
+    }
+    .search {
+
+    }
+
+  }
+
+}
+

@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-11-21T11:33:06Z" target-language="de">
+		<header>
+			<description>Language labels for the Google Maps API Extbase extension in the FRONTEND</description>
+			<authorName>Marc Hirdes</authorName>
+			<authorEmail>marc_hirdes@gmx.de</authorEmail>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="tx_gomapsext_domain_model_address" xml:space="preserve" approved="yes">
+			<source>Google Maps Address</source>
+		<target state="translated">Google-Maps-Adresse</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.address" xml:space="preserve" approved="yes">
+			<source>address</source>
+		<target state="translated">Adresse</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.close_by_click" xml:space="preserve" approved="yes">
+			<source>closeByClick</source>
+		<target state="translated">Schließen mit Klick</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.configuration_map" xml:space="preserve" approved="yes">
+			<source>configurationMap</source>
+		<target state="translated">Karte</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.image_height" xml:space="preserve" approved="yes">
+			<source>imageHeight</source>
+		<target state="translated">Bildhöhe</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.image_size" xml:space="preserve" approved="yes">
+			<source>imageSize</source>
+		<target state="translated">Bildgröße</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.image_width" xml:space="preserve" approved="yes">
+			<source>imageWidth</source>
+		<target state="translated">Bildbreite</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.info_window_content" xml:space="preserve" approved="yes">
+			<source>infoWindowContent</source>
+		<target state="translated">Inhalt des Info-Fensters</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.info_window_link" xml:space="preserve" approved="yes">
+			<source>infoWindowLink</source>
+		<target state="translated">Info-Fenster-Link</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.latitude" xml:space="preserve" approved="yes">
+			<source>latitude</source>
+		<target state="translated">Breite</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.longitude" xml:space="preserve" approved="yes">
+			<source>longitude</source>
+		<target state="translated">Länge</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.marker" xml:space="preserve" approved="yes">
+			<source>marker</source>
+		<target state="translated">Marker</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.open_by_click" xml:space="preserve" approved="yes">
+			<source>openByClick</source>
+		<target state="translated">Mit Klicken öffnen</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.shadow" xml:space="preserve" approved="yes">
+			<source>shadow</source>
+		<target state="translated">Schatten</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.shadow_height" xml:space="preserve" approved="yes">
+			<source>shadowHeight</source>
+		<target state="translated">Schattenhöhe</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.shadow_size" xml:space="preserve" approved="yes">
+			<source>shadowSize</source>
+		<target state="translated">Schattengröße</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.shadow_width" xml:space="preserve" approved="yes">
+			<source>shadowWidth</source>
+		<target state="translated">Schattenbreite</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_address.title" xml:space="preserve" approved="yes">
+			<source>title</source>
+		<target state="translated">Titel</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map" xml:space="preserve" approved="yes">
+			<source>Map</source>
+		<target state="translated">Karte</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.addresses" xml:space="preserve" approved="yes">
+			<source>addresses</source>
+		<target state="translated">Adressen</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.calc_route" xml:space="preserve" approved="yes">
+			<source>calcRoute</source>
+		<target state="translated">Benutzerdefinierte Route berechnen</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.class" xml:space="preserve" approved="yes">
+			<source>class</source>
+		<target state="translated">Klasse</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.default_type" xml:space="preserve" approved="yes">
+			<source>defaultType</source>
+		<target state="translated">Kartentyp am Anfang</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.double_click_zoom" xml:space="preserve" approved="yes">
+			<source>doubleClickZoom</source>
+		<target state="translated">Doppelklick-Zoom</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.draggable" xml:space="preserve" approved="yes">
+			<source>draggable</source>
+		<target state="translated">Karte verschiebbar</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.height" xml:space="preserve" approved="yes">
+			<source>in px</source>
+		<target state="translated">in Pixeln</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.kml_url" xml:space="preserve">
+			<source>kmlUrl</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.map_type_control" xml:space="preserve" approved="yes">
+			<source>mapTypeControl</source>
+		<target state="translated">Kartentyp Kontrolle</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.map_types" xml:space="preserve" approved="yes">
+			<source>mapTypes</source>
+		<target state="translated">Kartentypen</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.pan_control" xml:space="preserve" approved="yes">
+			<source>panControl</source>
+		<target state="translated">Schwenksteuerung</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.scale_control" xml:space="preserve">
+			<source>scaleControl</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.scroll_zoom" xml:space="preserve" approved="yes">
+			<source>scrollZoom</source>
+		<target state="translated">Durch Scrollen zoomen</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.show_route" xml:space="preserve" approved="yes">
+			<source>showRoute</source>
+		<target state="translated">Zeige Route</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.streetview_control" xml:space="preserve">
+			<source>streetviewControl</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.styled_map_code" xml:space="preserve">
+			<source>styledMapCode</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.styled_map_name" xml:space="preserve">
+			<source>styledMapName</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.title" xml:space="preserve" approved="yes">
+			<source>Title* (without space character, special character!)</source>
+		<target state="translated">Titel* (ohne Leerzeichen und Sonderzeichen)</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.tooltip_title" xml:space="preserve" approved="yes">
+			<source>tooltipTitle</source>
+		<target state="translated">Tooltip-Titel</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.travel_mode.0" xml:space="preserve" approved="yes">
+			<source>Driving</source>
+		<target state="translated">Mit dem Auto</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.travel_mode.2" xml:space="preserve" approved="yes">
+			<source>Bicycling</source>
+		<target state="translated">Mit dem Fahrrad</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.travel_mode.3" xml:space="preserve" approved="yes">
+			<source>Transit</source>
+		<target state="translated">Öffentliche Verkehrsmittel</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.travel_mode.4" xml:space="preserve" approved="yes">
+			<source>Walking</source>
+		<target state="translated">Zu Fuß</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.unit_system.2" xml:space="preserve" approved="yes">
+			<source>km</source>
+		<target state="translated">km</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.unit_system.3" xml:space="preserve" approved="yes">
+			<source>mil</source>
+		<target state="translated">mil</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.width" xml:space="preserve" approved="yes">
+			<source>in px</source>
+		<target state="translated">in px</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.zoom" xml:space="preserve" approved="yes">
+			<source>zoom</source>
+		<target state="translated">Zoom</target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.zoom_control" xml:space="preserve">
+			<source>zoomControl</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_domain_model_map.zoom_control_type" xml:space="preserve">
+			<source>zoomControlType</source>
+		<target></target></trans-unit>
+		<trans-unit id="tx_gomapsext_flexform_settings" xml:space="preserve" approved="yes">
+			<source>Settings</source>
+		<target state="translated">Einstellungen</target></trans-unit>
+		<trans-unit id="tx_gomapsext_flexform_settings.map" xml:space="preserve" approved="yes">
+			<source>Map</source>
+		<target state="translated">Karte</target></trans-unit>
+		<trans-unit id="tx_gomapsext_partials_map_assign.alert" xml:space="preserve" approved="yes">
+			<source>Please enter a valid address.</source>
+		<target state="translated">Bitte geben Sie eine gültige Adresse ein.</target></trans-unit>
+		<trans-unit id="tx_gomapsext_partials_map_assign.infoWindowLinkText" xml:space="preserve" approved="yes">
+			<source>Calculate Route</source>
+		<target state="translated">Route berechnen</target></trans-unit>
+		<trans-unit id="tx_gomapsext_partials_map_assign.noSearchResults" xml:space="preserve" approved="yes">
+			<source>No results found.</source>
+		<target state="translated">Die Suche lieferte keine Ergebnisse.</target></trans-unit>
+		<trans-unit id="tx_gomapsext_partials_map_assign.submit" xml:space="preserve" approved="yes">
+			<source>Calculate Route</source>
+		<target state="translated">Route berechnen</target></trans-unit>
+		<trans-unit id="tx_gomapsext_partials_map_assign.submitSearch" xml:space="preserve" approved="yes">
+			<source>Search</source>
+		<target state="translated">Suchen</target></trans-unit>
+		</body>
+	</file>
+</xliff>

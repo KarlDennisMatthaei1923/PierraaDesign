@@ -1,0 +1,13 @@
+config.tx_extbase{
+    persistence{
+        classes{
+
+            Clickstorm\GoMapsExt\Domain\Model\Map {
+                mapping {
+                    
+                }
+            }
+            
+    	}
+    }
+}

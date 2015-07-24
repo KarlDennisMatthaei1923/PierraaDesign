@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="no_modules_registered">Es wurden keine Module registriert. Bitte kontaktieren Sie Ihren Systemadministrator.</label>
+      <label index="foldertreeview.noFolders.title"/>
+      <label index="foldertreeview.noFolders.message"/>
+    </languageKey>
+  </data>
+</T3locallangExt>
